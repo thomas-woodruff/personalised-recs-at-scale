@@ -8,3 +8,7 @@ services:
       - "8888:8888"
     volumes:
       - .:/home
+    deploy:
+      resources:
+        limits:
+          memory: 8g
