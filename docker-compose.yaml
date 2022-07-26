@@ -1,14 +1,14 @@
-version: "3.8"
+version: "3.3"
 services:
   recs:
     build:
       context: .
       dockerfile: Dockerfile
     ports:
-      - "8888:8888"
+      - "8889:8889"
     volumes:
       - .:/home
     deploy:
       resources:
         limits:
-          memory: 8g
+          memory: 16g
