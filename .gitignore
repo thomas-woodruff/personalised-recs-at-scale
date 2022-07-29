@@ -133,3 +133,5 @@ dmypy.json
 .Trash-0/
 Icon[
 ]
+projects/data
+__MACOSX/
