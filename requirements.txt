@@ -19,6 +19,7 @@ dill==0.3.5.1
 entrypoints==0.4
 etils==0.6.0
 executing==0.8.3
+faiss-cpu==1.7.2
 fastjsonschema==2.15.3
 flatbuffers==1.12
 fonttools==4.34.4
